@@ -1,0 +1,39 @@
+Namespace(aggressive=0, batch_size=32, cuda=False, dataset='patent', dec_dropout_in=0.5, dec_dropout_out=0.5, dec_nh=1024, dec_type='lstm', decode_from='', decode_input='', decoding_strategy='greedy', enc_nh=1024, enc_type='lstm', epochs=100, eval=False, iw_nsamples=500, jobid=0, kl_start=1.0, label=False, load_path='', log_path='logs/patent\\patent_aggressive0_kls1.00_warm10_0_0_783435.log', momentum=0, ni=512, nsamples=1, nz=32, save_path='models/patent\\patent_aggressive0_kls1.00_warm10_0_0_783435.pt', seed=783435, taskid=0, test_data='../../Data/test.txt', test_nepoch=5, train_data='../../Data/train.txt', val_data='../../Data/val.txt', warm_up=10)
+Train data: 2000 samples
+finish reading datasets, vocab size is 18527
+dropped sentences: 0
+epoch: 0, iter: 0, avg_loss: 2515.8150, kl: 0.0000, mi: 0.2711, recon: 2515.8149,au 0, time elapsed 93.59s
+epoch: 0, iter: 6, avg_loss: 1736.4737, kl: 0.0503, mi: -0.1995, recon: 1736.4234,au 0, time elapsed 378.39s
+epoch: 0, iter: 12, avg_loss: 731.6088, kl: 2.3790, mi: 0.0447, recon: 729.2298,au 0, time elapsed 559.98s
+epoch: 0, iter: 18, avg_loss: 990.3414, kl: 0.6510, mi: -0.3216, recon: 989.6904,au 0, time elapsed 705.58s
+epoch: 0, iter: 24, avg_loss: 985.8607, kl: 0.1851, mi: -0.1874, recon: 985.6756,au 0, time elapsed 838.92s
+epoch: 0, iter: 30, avg_loss: 1147.3621, kl: 0.0382, mi: 0.0384, recon: 1147.3239,au 0, time elapsed 974.03s
+epoch: 0, iter: 36, avg_loss: 800.4316, kl: 0.0349, mi: 0.0475, recon: 800.3966,au 0, time elapsed 1099.47s
+epoch: 0, iter: 42, avg_loss: 1021.5311, kl: 0.6819, mi: 0.1967, recon: 1020.8492,au 0, time elapsed 1250.70s
+epoch: 0, iter: 48, avg_loss: 804.2348, kl: 0.2538, mi: 0.0717, recon: 803.9810,au 0, time elapsed 1381.44s
+epoch: 0, iter: 54, avg_loss: 962.4162, kl: 0.0722, mi: 0.2468, recon: 962.3441,au 0, time elapsed 1520.44s
+epoch: 0, iter: 60, avg_loss: 927.4675, kl: 0.1056, mi: 0.1089, recon: 927.3620,au 0, time elapsed 1658.88s
+epoch: 0, iter: 66, avg_loss: 896.6811, kl: 0.0549, mi: -0.0718, recon: 896.6262,au 0, time elapsed 1805.05s
+epoch: 0, iter: 72, avg_loss: 1243.2344, kl: 0.1186, mi: -0.3311, recon: 1243.1158,au 0, time elapsed 1971.03s
+epoch: 0, iter: 78, avg_loss: 831.5744, kl: 0.2657, mi: 0.1307, recon: 831.3086,au 0, time elapsed 2119.69s
+epoch: 0, iter: 84, avg_loss: 662.0940, kl: 0.0883, mi: -0.0220, recon: 662.0058,au 0, time elapsed 2277.57s
+epoch: 0, iter: 90, avg_loss: 1042.4480, kl: 0.1396, mi: -0.2071, recon: 1042.3083,au 0, time elapsed 2432.26s
+epoch: 0, iter: 96, avg_loss: 712.7338, kl: 0.1432, mi: -0.1117, recon: 712.5906,au 0, time elapsed 2586.46s
+epoch: 0, iter: 102, avg_loss: 832.0412, kl: 0.4779, mi: 0.0248, recon: 831.5632,au 0, time elapsed 2752.22s
+epoch: 0, iter: 108, avg_loss: 861.2970, kl: 0.1128, mi: -0.1484, recon: 861.1843,au 0, time elapsed 2911.04s
+epoch: 0, iter: 114, avg_loss: 1293.6202, kl: 0.0752, mi: -0.3453, recon: 1293.5450,au 0, time elapsed 3078.00s
+epoch: 0, iter: 120, avg_loss: 681.4492, kl: 0.1533, mi: 0.0893, recon: 681.2959,au 0, time elapsed 3221.44s
+epoch: 0, iter: 126, avg_loss: 1329.1186, kl: 0.2060, mi: 0.0020, recon: 1328.9125,au 0, time elapsed 3408.92s
+epoch: 0, iter: 132, avg_loss: 1100.0805, kl: 0.2237, mi: 0.2765, recon: 1099.8568,au 0, time elapsed 3580.64s
+epoch: 0, iter: 138, avg_loss: 709.1024, kl: 0.2570, mi: -0.0146, recon: 708.8454,au 0, time elapsed 4126.71s
+epoch: 0, iter: 144, avg_loss: 539.1730, kl: 0.1696, mi: 0.1998, recon: 539.0034,au 0, time elapsed 4280.91s
+epoch: 0, iter: 150, avg_loss: 749.8203, kl: 0.1055, mi: 0.1990, recon: 749.7149,au 0, time elapsed 4445.82s
+epoch: 0, iter: 156, avg_loss: 737.1327, kl: 0.1228, mi: 0.2337, recon: 737.0099,au 0, time elapsed 4608.75s
+epoch: 0, iter: 162, avg_loss: 937.1048, kl: 0.2485, mi: -0.0848, recon: 936.8564,au 0, time elapsed 4794.80s
+epoch: 0, iter: 168, avg_loss: 725.7439, kl: 0.1626, mi: 0.0149, recon: 725.5813,au 0, time elapsed 4959.53s
+epoch: 0, iter: 174, avg_loss: 594.9628, kl: 0.2083, mi: 0.0837, recon: 594.7544,au 0, time elapsed 5111.04s
+epoch: 0, iter: 180, avg_loss: 883.8018, kl: 0.2575, mi: -0.0857, recon: 883.5444,au 0, time elapsed 5278.14s
+epoch: 0, iter: 186, avg_loss: 875.5399, kl: 0.1878, mi: -0.0565, recon: 875.3521,au 0, time elapsed 5452.67s
+epoch: 0, iter: 192, avg_loss: 975.6405, kl: 0.2833, mi: -0.0506, recon: 975.3572,au 0, time elapsed 5625.00s
+epoch: 0, iter: 198, avg_loss: 794.2876, kl: 0.4570, mi: -0.1880, recon: 793.8306,au 0, time elapsed 5792.05s
+epoch: 0, iter: 204, avg_loss: 564.6284, kl: 0.1596, mi: 0.0075, recon: 564.4688,au 0, time elapsed 5925.32s
